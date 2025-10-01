@@ -16,8 +16,8 @@ appmode = st.sidebar.selectbox("Menu",["Home","About Project","Prediction","Gith
 
 #Main Page
 if (appmode == "Home"):
-    st.header("Medicinal Plant Leaf Recognition")
-    image_path="3.jpg"
+    st.header("PlantPal")
+    image_path="2.jpg"
     st.image(image_path, width=900)
 
 
